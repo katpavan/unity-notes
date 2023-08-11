@@ -1,5 +1,8 @@
+### track collisions without blocking them
+
 ![what is trigger true does](is_trigger_true.png "What is trigger true does")
 
+### apply changes to a prefab
 ![apply changes to prefab](apply_changes_to_prefab.gif "apply changes to prefab")
 
 ### instantiate a prefab
