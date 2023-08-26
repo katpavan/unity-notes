@@ -1,7 +1,6 @@
 ### on windows hold left alt while hand tool is selected to rotate around
 
-![on windows hold left alt](on-windows-hold-left-alt
-.png "on windows hold left alt")
+![on windows hold left alt](on-windows-hold-left-alt.png "on windows hold left alt")
 
 ### track collisions without blocking them
 
