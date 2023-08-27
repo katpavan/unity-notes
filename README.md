@@ -1,8 +1,10 @@
+### freeze-rotation.png
+
+![freeze-rotation.png](freeze-rotation.png "freeze-rotation.png")
 
 ### switch-dim-views-in-3d-space.png
 
 ![switch-dim-views-in-3d-space.png](switch-dim-views-in-3d-space.png "switch-dim-views-in-3d-space.png")
-
 
 ### using assets from unity asset store
 
