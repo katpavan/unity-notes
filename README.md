@@ -14,7 +14,7 @@
 
 ![on windows hold left alt](on-windows-hold-left-alt.png "on windows hold left alt")
 
-### track collisions without blocking them
+### track collisions without blocking them (trigger)
 
 ![what is trigger true does](is_trigger_true.png "What is trigger true does")
 
