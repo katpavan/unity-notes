@@ -1,3 +1,7 @@
+### turning-image-into-sprite.png
+
+![turning-image-into-sprite.png](turning-image-into-sprite.png "turning-image-into-sprite.png")
+
 ### freeze-rotation.png
 
 ![freeze-rotation.png](freeze-rotation.png "freeze-rotation.png")
