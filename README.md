@@ -1,3 +1,7 @@
+### how to detect two game objects touching
+
+if both have colliders and one has a rigid body then we can detect the touch
+
 ### turning-image-into-sprite.png
 
 ![turning-image-into-sprite.png](turning-image-into-sprite.png "turning-image-into-sprite.png")
