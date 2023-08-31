@@ -2,6 +2,8 @@
 
 if both have colliders and one has a rigid body then we can detect the touch
 
+then you can detect the collision using OnTriggerEnter
+
 ### turning-image-into-sprite.png
 
 ![turning-image-into-sprite.png](turning-image-into-sprite.png "turning-image-into-sprite.png")
