@@ -1,3 +1,8 @@
+### record game objects being moved and turn them into animations with a recorder
+
+![animation-recorder.png](animation-recorder.png "animation-recorder.png")
+
+
 ### how to detect two game objects touching
 
 if both have colliders and one has a rigid body then we can detect the touch
