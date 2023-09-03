@@ -1,3 +1,7 @@
+### how to quickly tell that a game object is a prefab from the hierarchy window
+
+![how to quickly tell that a game object is a prefab from the hierarchy window](prefabs.png "how to quickly tell that a game object is a prefab from the hierarchy window")
+
 ### record game objects being moved and turn them into animations with a recorder
 
 ![animation-recorder.png](animation-recorder.png "animation-recorder.png")
