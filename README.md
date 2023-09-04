@@ -1,4 +1,4 @@
-### pre-load ads 
+### pre-load ads (joao wrote this)
 
 ```
 public class YomiAd
