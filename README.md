@@ -1,3 +1,7 @@
+### access the transform component of a game object
+
+by simply writing ```transform``` in a c# script that happens to be a component on a game object
+
 ### destroy the game object
 
 ```
