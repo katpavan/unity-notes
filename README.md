@@ -12,79 +12,6 @@ so if the class that this code is in, is added as a component it will kill the o
 
 this is why you shouldn't name GameObjects, gameObject. 
 
-### pre-load ads (joao wrote this)
-
-```
-public class YomiAd
-{
-    public string AdUnitId;
-    public bool IsReady;
-    private RewardedAd rewardedAd;
-    private LoadAdError error;
-
-    public YomiAd(string adUnitId)
-    {
-        AdUnitId = adUnitId;
-        Load();
-    }
-
-    public void Show(Action successfulCallback, Action errorCallback)
-    {
-        if (!IsReady || rewardedAd == null || !rewardedAd.CanShowAd())
-        {
-            errorCallback();
-            return;
-        }
-
-        rewardedAd.Show((GoogleMobileAds.Api.Reward reward) => successfulCallback());
-    }
-
-    private void Load()
-    {
-        if (rewardedAd != null)
-        {
-            rewardedAd.Destroy();
-        }
-
-        IsReady = false;
-
-        var adRequest = new AdRequest();
-        RewardedAd.Load(AdUnitId, adRequest,
-            (RewardedAd ad, LoadAdError err) =>
-            {
-                if (error == null)
-                {
-                    rewardedAd = ad;
-                    rewardedAd.OnAdFullScreenContentClosed += Load;
-                }
-                else
-                {
-                    rewardedAd = null;
-                }
-
-                IsReady = true;
-            });
-    }
-}
-```
-
-just gotta check for IsReady before showing the ad:
-
-```
-while (!rewardedAd.IsReady)
-{
-    await Task.Yield();
-}
-```
-
-you can copy+paste the AdmobManager class too if you want.
-right now I’m preloading all ads on startup. when an user watches an ad, we immediately load the next ad… even though not all ads need to be preloaded
-I also checked these flags:
-
-![preload-ads.png](preload-ads.png "preload-ads.png")
-
-sort of worried about memory usage
-
 ### how to quickly tell that a game object is a prefab from the hierarchy window
 
 ![how to quickly tell that a game object is a prefab from the hierarchy window](prefabs.png "how to quickly tell that a game object is a prefab from the hierarchy window")
@@ -299,3 +226,77 @@ restart Unity
 
 Press Play
 
+# haven't tested yet
+
+### pre-load ads (joao wrote this)
+
+```
+public class YomiAd
+{
+    public string AdUnitId;
+    public bool IsReady;
+    private RewardedAd rewardedAd;
+    private LoadAdError error;
+
+    public YomiAd(string adUnitId)
+    {
+        AdUnitId = adUnitId;
+        Load();
+    }
+
+    public void Show(Action successfulCallback, Action errorCallback)
+    {
+        if (!IsReady || rewardedAd == null || !rewardedAd.CanShowAd())
+        {
+            errorCallback();
+            return;
+        }
+
+        rewardedAd.Show((GoogleMobileAds.Api.Reward reward) => successfulCallback());
+    }
+
+    private void Load()
+    {
+        if (rewardedAd != null)
+        {
+            rewardedAd.Destroy();
+        }
+
+        IsReady = false;
+
+        var adRequest = new AdRequest();
+        RewardedAd.Load(AdUnitId, adRequest,
+            (RewardedAd ad, LoadAdError err) =>
+            {
+                if (error == null)
+                {
+                    rewardedAd = ad;
+                    rewardedAd.OnAdFullScreenContentClosed += Load;
+                }
+                else
+                {
+                    rewardedAd = null;
+                }
+
+                IsReady = true;
+            });
+    }
+}
+```
+
+just gotta check for IsReady before showing the ad:
+
+```
+while (!rewardedAd.IsReady)
+{
+    await Task.Yield();
+}
+```
+
+you can copy+paste the AdmobManager class too if you want.
+right now I’m preloading all ads on startup. when an user watches an ad, we immediately load the next ad… even though not all ads need to be preloaded
+I also checked these flags:
+
+![preload-ads.png](preload-ads.png "preload-ads.png")
+
+sort of worried about memory usage
