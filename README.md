@@ -6,6 +6,8 @@ Destroy(gameObject);
 
 so if the class that this code is in, is added as a component it will kill the object it's on
 
+this is why you shouldn't name GameObjects, gameObject. 
+
 ### pre-load ads (joao wrote this)
 
 ```
