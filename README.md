@@ -2,6 +2,10 @@
 
 by simply writing ```transform``` in a c# script that happens to be a component on a game object
 
+I can modify the transform component of a game object in the c# code in the following ways:
+
+![transform-stuff.png](transform-stuff.png "transform-stuff.png")
+
 ### destroy the game object
 
 ```
