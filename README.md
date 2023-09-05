@@ -6,6 +6,8 @@ I can modify the transform component of a game object in the c# code in the foll
 
 ![transform-stuff.png](transform-stuff.png "transform-stuff.png")
 
+above code from https://www.youtube.com/watch?v=8pC3SE5PIzY
+
 ### destroy the game object
 
 ```
