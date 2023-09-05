@@ -1,3 +1,11 @@
+### destroy the game object
+
+```
+Destroy(gameObject);
+```
+
+so if the class that this code is in, is added as a component it will kill the object it's on
+
 ### pre-load ads (joao wrote this)
 
 ```
@@ -79,6 +87,13 @@ sort of worried about memory usage
 
 ![animation-recorder.png](animation-recorder.png "animation-recorder.png")
 
+### edit a keyframe of an animation already made
+
+make sure the recorder is on when editing a keyframe
+
+you can select the exact keyframe by hitting the fast forward and rewind buttons
+
+![edit-keyframe-animation](edit-keyframe-animation "edit-keyframe-animation")
 
 ### how to detect two game objects touching
 
