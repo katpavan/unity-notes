@@ -32,7 +32,7 @@ make sure the recorder is on when editing a keyframe
 
 you can select the exact keyframe by hitting the fast forward and rewind buttons
 
-![edit-keyframe-animation](edit-keyframe-animation "edit-keyframe-animation")
+![edit-keyframe-animation](edit-keyframe-animation.png "edit-keyframe-animation")
 
 ### how to detect two game objects touching
 
