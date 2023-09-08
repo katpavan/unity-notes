@@ -1,3 +1,7 @@
+### OnTriggerEnter-script-needs-to-be-on-GO-with-box-collider NOT the parent object
+
+![OnTriggerEnter-script-needs-to-be-on-GO-with-box-collider.png](OnTriggerEnter-script-needs-to-be-on-GO-with-box-collider.png "OnTriggerEnter-script-needs-to-be-on-GO-with-box-collider.png")
+
 ### access the transform component of a game object
 
 by simply writing ```transform``` in a c# script that happens to be a component on a game object
