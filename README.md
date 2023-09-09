@@ -49,6 +49,8 @@ This would be handy if you wanted to have say 3D elements in a UI space or like 
 **make a ui element in the canvas stretch across it**
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/c9a3fdcd-38a7-4f5f-82a2-7b0350a43e5e)
 
+**trigger function on button click**
+![image](https://github.com/katpavan/unity-notes/assets/45500874/8e0ba568-b7ab-40dc-ae46-fad225f34891)
 
 ### how-to-make-a-singleton
 
