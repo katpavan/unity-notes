@@ -1,3 +1,14 @@
+### definitely use the input system package
+
+tricks unity into thinking mouse clicks are actually touch inputs on the screen
+
+this way in our code we don't have to say if using mouse do this, if using touch, do this
+
+so whether we're using the editor or our phone, it'll work the same
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/9cc511cc-db39-43f7-840e-d5fb33fbdc9f)
+
+
 ### canvas (UI in Unity)
 
 The Canvas is the area that all UI elements should be inside. The Canvas is a Game Object with a Canvas component on it, and all UI elements must be children of such a Canvas.
