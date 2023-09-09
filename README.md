@@ -1,3 +1,7 @@
+### how-to-make-a-singleton.png
+
+!how-to-make-a-singleton.png](how-to-make-a-singleton.png "how-to-make-a-singleton.png")
+
 ### OnTriggerEnter-script-needs-to-be-on-GO-with-box-collider NOT the parent object
 
 ![OnTriggerEnter-script-needs-to-be-on-GO-with-box-collider.png](OnTriggerEnter-script-needs-to-be-on-GO-with-box-collider.png "OnTriggerEnter-script-needs-to-be-on-GO-with-box-collider.png")
