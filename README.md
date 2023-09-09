@@ -86,6 +86,13 @@ this is why you shouldn't name GameObjects, gameObject.
 
 ![how to quickly tell that a game object is a prefab from the hierarchy window](prefabs.png "how to quickly tell that a game object is a prefab from the hierarchy window")
 
+### set default animation
+
+go into the animation controller and right click a state and set it as "Set as Layer Default State"
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/be05f01d-7430-471d-a16f-fcd0787de871)
+
+
 ### record game objects being moved and turn them into animations with a recorder
 
 ![animation-recorder.png](animation-recorder.png "animation-recorder.png")
