@@ -46,6 +46,10 @@ This would be handy if you wanted to have say 3D elements in a UI space or like 
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/0646cf47-b13d-4d50-af1b-de268e1db8d3)
 
+**make a ui element in the canvas stretch across it**
+![image](https://github.com/katpavan/unity-notes/assets/45500874/c9a3fdcd-38a7-4f5f-82a2-7b0350a43e5e)
+
+
 ### how-to-make-a-singleton.png
 
 ![how-to-make-a-singleton.png](how-to-make-a-singleton.png "how-to-make-a-singleton.png")
