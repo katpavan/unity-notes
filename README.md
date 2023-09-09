@@ -42,6 +42,10 @@ This would be handy if you wanted to have say 3D elements in a UI space or like 
 ![canvas-scaler.png](canvas-scaler.png "canvas-scaler.png")
 ![canvas-scaler-2.png](canvas-scaler-2.png "canvas-scaler-2.png")
 
+**auto size** - for text ui elements in the canvas - it makes the font size adapt to the screen size
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/0646cf47-b13d-4d50-af1b-de268e1db8d3)
+
 ### how-to-make-a-singleton.png
 
 ![how-to-make-a-singleton.png](how-to-make-a-singleton.png "how-to-make-a-singleton.png")
