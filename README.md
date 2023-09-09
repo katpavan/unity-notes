@@ -28,6 +28,13 @@ This render mode places UI elements on the screen rendered on top of the scene. 
 This is similar to Screen Space - Overlay, but in this render mode the Canvas is placed a given distance in front of a specified Camera
 . The UI elements are rendered by this camera, which means that the Camera settings affect the appearance of the UI. If the Camera is set to Perspective, the UI elements will be rendered with perspective, and the amount of perspective distortion can be controlled by the Camera Field of View. If the screen is resized, changes resolution, or the camera frustum changes, the Canvas will automatically change size to match as well.
 
+There are two types of camera views in game development, Perspective (objects are smaller the farther away they are) and orthographic (all objects are the same size no matter the distance)
+So when you have a Screen Space Camera set to perspective, you have UI elements that can have distance from the camera.  
+
+This would be handy if you wanted to have say 3D elements in a UI space or like the example on the Unity article there a rotated canvas
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/650f01a7-10f2-44e9-9412-d4824b2bbefe)
+
 ![screen-space-camera.jpg](screen-space-camera.jpg "screen-space-camera.jpg")
 
 **canvas scaler**
