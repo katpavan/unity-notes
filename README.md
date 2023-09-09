@@ -33,6 +33,7 @@ This is similar to Screen Space - Overlay, but in this render mode the Canvas is
 **canvas scaler**
 
 ![canvas-scaler.png](canvas-scaler.png "canvas-scaler.png")
+![canvas-scaler-2.png](canvas-scaler-2.png "canvas-scaler-2.png")
 
 ### how-to-make-a-singleton.png
 
