@@ -1,3 +1,24 @@
+### creating a 2d ball with physics that bounces
+
+unity adds a sprite renderer, 2d collider and rigid body onto the circle
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/02cebd2b-6088-4a9c-9f96-e6cf7ec9dc2f)
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/dd3a6a3c-881c-4b11-9be0-1120e2a452d4)
+
+make a square, stretch it and give it a collider. it doesn't need a rigidbody.
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/8281d9f8-c635-4ce6-b6da-c90c530b96aa)
+
+now make a 2d physics material in your assets folder
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/7917a289-e2e2-49cb-8f2b-6691f7c95ed8)
+
+without doing this next step, the ball will stop when it hits the floor
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/97b05ff9-5722-4820-9c80-efdf8b3437f7)
+
+
 ### test on different devices from the unity editor
 
 nothing beats testing on the phone though
