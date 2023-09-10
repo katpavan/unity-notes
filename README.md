@@ -1,3 +1,12 @@
+### test on different devices from the unity editor
+
+nothing beats testing on the phone though
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/1eabbbca-c155-4cfe-a736-06780eb61dbc)
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/34393ebd-7fc4-4c47-8639-850aacea2752)
+
+
 ### definitely use the input system package
 
 tricks unity into thinking mouse clicks are actually touch inputs on the screen
@@ -7,12 +16,15 @@ this way in our code we don't have to say if using mouse do this, if using touch
 so whether we're using the editor or our phone, it'll work the same
 
 step 1
+
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/9cc511cc-db39-43f7-840e-d5fb33fbdc9f)
 
 step 2
+
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/3f93e56c-3cea-457d-aada-1aacb26ddd37)
 
 step 3
+
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/234aadd1-17a4-47ca-be19-0b1e6f9aaed0)
 
 
