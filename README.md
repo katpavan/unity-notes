@@ -1,3 +1,7 @@
+### spring joint
+
+spring joint lets us attach a 2d game object with a collider to an invisible pivot point. it will swing.
+
 ### creating a 2d ball with physics that bounces
 
 unity adds a sprite renderer, 2d collider and rigid body onto the circle
