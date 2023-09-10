@@ -1,3 +1,9 @@
+### game design
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/0dab7905-c8a9-44cc-be54-f5a4d1e7ac66)
+![image](https://github.com/katpavan/unity-notes/assets/45500874/5071d02f-23f7-42f1-bf87-c8c44e96c35d)
+
+
 ### spring joint
 
 spring joint lets us attach a 2d game object with a collider to an invisible pivot point. it will swing.
