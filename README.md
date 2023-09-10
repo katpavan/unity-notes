@@ -6,7 +6,14 @@ this way in our code we don't have to say if using mouse do this, if using touch
 
 so whether we're using the editor or our phone, it'll work the same
 
+step 1
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/9cc511cc-db39-43f7-840e-d5fb33fbdc9f)
+
+step 2
+![image](https://github.com/katpavan/unity-notes/assets/45500874/3f93e56c-3cea-457d-aada-1aacb26ddd37)
+
+step 3
+![image](https://github.com/katpavan/unity-notes/assets/45500874/234aadd1-17a4-47ca-be19-0b1e6f9aaed0)
 
 
 ### canvas (UI in Unity)
