@@ -18,6 +18,7 @@ without doing this next step, the ball will stop when it hits the floor
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/97b05ff9-5722-4820-9c80-efdf8b3437f7)
 
+![image](https://github.com/katpavan/unity-notes/assets/45500874/21327792-727a-47d2-b870-c170b483323a)
 
 ### test on different devices from the unity editor
 
