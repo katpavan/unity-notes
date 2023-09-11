@@ -5,10 +5,23 @@
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/5fef34d2-9913-4545-8ce5-450bd2aaef7c)
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/c6e04f92-5535-43c3-95d5-b44d14951ecf)
 
-
 ### spring joint
 
 spring joint lets us attach a 2d game object with a collider to an invisible pivot point. it will swing.
+
+step 1 - make a static sprite (one that doesn't move)
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/1a450b59-724f-42a7-ad45-5c2ceb3ff564)
+
+step 2 - name it pivot
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/954c62eb-af1b-43d5-8be5-0a1eeb9573da)
+
+step 3 - remove the collider component on it so nothing collides with it
+
+step 4 - for our purposes change it from a circle to a square. Click the circle thing to choose a new Sprite in the Sprite row of the Sprite Renderer Component and search for circle
+![image](https://github.com/katpavan/unity-notes/assets/45500874/27c0d92e-b9ea-48e4-a7ee-bc02ee9b87cd)
+
 
 ### creating a 2d ball with physics that bounces
 
