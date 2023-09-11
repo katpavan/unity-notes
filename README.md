@@ -28,6 +28,10 @@ step 5
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/09fb78e7-a9e1-4ede-a47e-0788855a8815)
 
+step 6
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/c9647dae-bf90-4903-9566-af7e7b6749e0)
+
 ---
 
 ### creating a 2d ball with physics that bounces
