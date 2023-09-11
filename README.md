@@ -85,6 +85,14 @@ step 3
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/234aadd1-17a4-47ca-be19-0b1e6f9aaed0)
 
+to use it in code, do this:
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/b434910e-15f1-42f1-a74b-da240ab41e0b)
+
+you'll see options like: position, primaryTouch (first finger that touches down. if you don't need multiTouch this is good), press, pressure, radius
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/40e7bfa8-2c4c-4b0a-ac73-2169cdca2f56)
+
 
 ### canvas (UI in Unity)
 
