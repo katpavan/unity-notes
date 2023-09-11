@@ -99,6 +99,16 @@ the ReadValue() function returns a Vector2
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/abf1aedb-c895-4a03-bd0f-324ca05ea27d)
 
+if player isn't touching the screen get out of the update function
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/f626a0df-4a7d-4b64-bcc3-45df1b3cddf9)
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/fa85f30a-6190-4e67-b7d7-f201822dd4d9)
+
+unity has a built in method to convert from screen space (touch space) to world space. this method lives on the camera. the camera has a method that will convert based on where it is in the scene
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/9a6719a9-ce8f-4b56-a904-17fb6a20325e)
+
 
 ### canvas (UI in Unity)
 
