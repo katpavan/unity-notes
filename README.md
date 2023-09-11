@@ -65,7 +65,7 @@ nothing beats testing on the phone though
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/34393ebd-7fc4-4c47-8639-850aacea2752)
 
 
-### definitely use the input system package
+### definitely use the input system package - detect touch from mobile device
 
 tricks unity into thinking mouse clicks are actually touch inputs on the screen
 
