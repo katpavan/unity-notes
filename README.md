@@ -93,6 +93,12 @@ you'll see options like: position, primaryTouch (first finger that touches down.
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/40e7bfa8-2c4c-4b0a-ac73-2169cdca2f56)
 
+![image](https://github.com/katpavan/unity-notes/assets/45500874/3062b13b-ffd2-4241-b3a2-645ae7329a87)
+
+the ReadValue() function returns a Vector2
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/abf1aedb-c895-4a03-bd0f-324ca05ea27d)
+
 
 ### canvas (UI in Unity)
 
