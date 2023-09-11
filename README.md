@@ -109,6 +109,16 @@ unity has a built in method to convert from screen space (touch space) to world 
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/9a6719a9-ce8f-4b56-a904-17fb6a20325e)
 
+![image](https://github.com/katpavan/unity-notes/assets/45500874/0e1ada09-fcac-4e8b-98e5-8155d3590125)
+
+ScreenToWorldPoint returns a Vector3 but can take in a Vector2
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/0d43c5d8-302b-4981-96e2-c2243b34b7f6)
+
+
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/1137a683-44cc-46c1-9e67-602e844fe969)
+
 
 ### canvas (UI in Unity)
 
