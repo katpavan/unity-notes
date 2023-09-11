@@ -20,12 +20,14 @@ step 2 - name it pivot
 step 3 - remove the collider component on it so nothing collides with it
 
 step 4 - for our purposes change it from a circle to a square. Click the circle thing to choose a new Sprite in the Sprite row of the Sprite Renderer Component and search for circle
+
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/27c0d92e-b9ea-48e4-a7ee-bc02ee9b87cd)
 
 step 5
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/09fb78e7-a9e1-4ede-a47e-0788855a8815)
 
+---
 
 ### creating a 2d ball with physics that bounces
 
