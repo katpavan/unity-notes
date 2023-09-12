@@ -1,9 +1,6 @@
-## game design
+## camera zoom adjustment
 
-![image](https://github.com/katpavan/unity-notes/assets/45500874/0dab7905-c8a9-44cc-be54-f5a4d1e7ac66)
-![image](https://github.com/katpavan/unity-notes/assets/45500874/5071d02f-23f7-42f1-bf87-c8c44e96c35d)
-![image](https://github.com/katpavan/unity-notes/assets/45500874/5fef34d2-9913-4545-8ce5-450bd2aaef7c)
-![image](https://github.com/katpavan/unity-notes/assets/45500874/c6e04f92-5535-43c3-95d5-b44d14951ecf)
+![image](https://github.com/katpavan/unity-notes/assets/45500874/a2c4e335-5c2a-40ac-b885-7a28ebc63717)
 
 ## spawning prefabs from code
 
