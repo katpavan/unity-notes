@@ -132,6 +132,16 @@ ScreenToWorldPoint returns a Vector3 but can take in a Vector2
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/1137a683-44cc-46c1-9e67-602e844fe969)
 
 
+move ball to finger on screen
+
+put ball where finger is on screen
+
+if you want the ball to goto where your finger on the screen is then do this but you have to make sure the ball is kinematic (no physics but moveable) and not dynamic or static. dynamic is when physics is applied to it and it's movable. static is when it stays in place.
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/d22911b8-89a3-483a-be54-9438f4c4e2ea)
+
+
+
 ### test on different devices from the unity editor
 
 nothing beats testing on the phone though
