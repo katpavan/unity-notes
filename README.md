@@ -15,6 +15,14 @@ kinematic means it's moving but physics won't affect it (ex: gravity, spring joi
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/15f63cd5-89a4-4012-9d55-905cb3f4b4c2)
 
+### swap between dynamic and kinematic
+
+    //we want physics control on the ball now that player let go
+    currentBallRigidbody.isKinematic = false;
+    
+    //this means that the ball is taken out of physics control and is kinematic means it moves with our finger
+    currentBallRigidbody.isKinematic = true;
+        
 ### spring joint
 
 spring joint lets us attach a 2d game object with a collider to an invisible pivot point. it will swing.
