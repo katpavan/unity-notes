@@ -140,6 +140,17 @@ if you want the ball to goto where your finger on the screen is then do this but
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/d22911b8-89a3-483a-be54-9438f4c4e2ea)
 
+## if we aren't touching screen, but were (dragging and letting go)
+
+then launch the ball
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/895b5114-8660-4061-aad9-9dfeb0e1b7ea)
+
+we know for sure the finger is on the screen here so that's where we can set isDragging to true
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/d3b9e1e0-65c9-4c88-ab11-be64a0407533)
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/c21574ea-0bc0-4347-badb-58f6ced43ee9)
 
 
 ## test on different devices from the unity editor
