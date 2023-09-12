@@ -9,6 +9,10 @@
 
 Invoke method lets you call a function after a certain number of seconds
 
+but the method goes in quotes. it's not a reference to the function.
+
+wtf c#
+
 ## static vs dynamic vs kinematic
 
 static means the game object isn't moving
