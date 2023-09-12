@@ -19,10 +19,11 @@ kinematic means it's moving but physics won't affect it (ex: gravity, spring joi
 
     private Rigidbody2D currentBallRigidbody;
     
-    //we want physics control on the ball now that player let go
+    //we want physics control on the ball now that player let go of the screen
     currentBallRigidbody.isKinematic = false;
     
     //this means that the ball is taken out of physics control and is kinematic means it moves with our finger
+    //we want this when the player is touching the screen so they can drag the ball without physics impacting the ball
     currentBallRigidbody.isKinematic = true;
         
 ### spring joint
