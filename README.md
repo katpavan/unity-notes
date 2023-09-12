@@ -17,6 +17,8 @@ kinematic means it's moving but physics won't affect it (ex: gravity, spring joi
 
 ### swap between dynamic and kinematic
 
+    private Rigidbody2D currentBallRigidbody;
+    
     //we want physics control on the ball now that player let go
     currentBallRigidbody.isKinematic = false;
     
