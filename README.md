@@ -11,6 +11,9 @@
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/979c91bb-c267-4c30-8477-ae1930f92799)
 
+Quaternion.identity is the default rotation
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/ffbb035f-c7d0-494c-ab05-01abf21ec7c3)
 
 ## how to restart a game loop without a button or restarting the scene
 
