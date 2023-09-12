@@ -1,3 +1,15 @@
+## cinemachine for dynamic zoom
+
+you can allocate two positions to a camera and make sure that both positions are always in view of the camera
+
+this way when the resolution is changed, those two points are always in view
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/41426a82-53f1-46c6-9247-d59cc956513f)
+
+make two empty game objects and position them left and right 
+![image](https://github.com/katpavan/unity-notes/assets/45500874/ccd75ba9-d473-4440-a21d-2abbdac6acf7)
+
+
 ## camera zoom adjustment
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/a2c4e335-5c2a-40ac-b885-7a28ebc63717)
