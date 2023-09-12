@@ -5,6 +5,12 @@
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/5fef34d2-9913-4545-8ce5-450bd2aaef7c)
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/c6e04f92-5535-43c3-95d5-b44d14951ecf)
 
+## how to restart a game loop without a button or restarting the scene
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/762ad327-7e49-422e-a850-f70d566e512b)
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/ce0e0229-eea1-4363-be2a-3ed0a3aa79fd)
+
 ## setTimeout() but in unity
 
 Invoke method lets you call a function after a certain number of seconds
