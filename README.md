@@ -1,11 +1,11 @@
-### game design
+## game design
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/0dab7905-c8a9-44cc-be54-f5a4d1e7ac66)
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/5071d02f-23f7-42f1-bf87-c8c44e96c35d)
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/5fef34d2-9913-4545-8ce5-450bd2aaef7c)
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/c6e04f92-5535-43c3-95d5-b44d14951ecf)
 
-### static vs dynamic vs kinematic
+## static vs dynamic vs kinematic
 
 static means the game object isn't moving
 
@@ -15,7 +15,7 @@ kinematic means it's moving but physics won't affect it (ex: gravity, spring joi
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/15f63cd5-89a4-4012-9d55-905cb3f4b4c2)
 
-### swap between dynamic and kinematic
+## swap between dynamic and kinematic
 
     private Rigidbody2D currentBallRigidbody;
     
@@ -26,7 +26,7 @@ kinematic means it's moving but physics won't affect it (ex: gravity, spring joi
     //we want this when the player is touching the screen so they can drag the ball without physics impacting the ball
     currentBallRigidbody.isKinematic = true;
         
-### spring joint
+## spring joint
 
 spring joint lets us attach a 2d game object with a collider to an invisible pivot point. it will swing.
 
@@ -55,7 +55,7 @@ step 6
 
 ---
 
-### creating a 2d ball with physics that bounces
+## creating a 2d ball with physics that bounces
 
 unity adds a sprite renderer, 2d collider and rigid body onto the circle
 
@@ -77,7 +77,7 @@ without doing this next step, the ball will stop when it hits the floor
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/21327792-727a-47d2-b870-c170b483323a)
 
-### definitely use the input system package - detect touch from mobile device
+## definitely use the input system package - detect touch from mobile device
 
 tricks unity into thinking mouse clicks are actually touch inputs on the screen
 
@@ -132,7 +132,7 @@ ScreenToWorldPoint returns a Vector3 but can take in a Vector2
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/1137a683-44cc-46c1-9e67-602e844fe969)
 
 
-move ball to finger on screen
+## move ball to finger on screen
 
 put ball where finger is on screen
 
@@ -142,7 +142,7 @@ if you want the ball to goto where your finger on the screen is then do this but
 
 
 
-### test on different devices from the unity editor
+## test on different devices from the unity editor
 
 nothing beats testing on the phone though
 
@@ -150,7 +150,7 @@ nothing beats testing on the phone though
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/34393ebd-7fc4-4c47-8639-850aacea2752)
 
-### canvas (UI in Unity)
+## canvas (UI in Unity)
 
 The Canvas is the area that all UI elements should be inside. The Canvas is a Game Object with a Canvas component on it, and all UI elements must be children of such a Canvas.
 
@@ -206,15 +206,15 @@ This would be handy if you wanted to have say 3D elements in a UI space or like 
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/8e0ba568-b7ab-40dc-ae46-fad225f34891)
 
-### how-to-make-a-singleton
+## how-to-make-a-singleton
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/f8fc6dc6-cdf4-4f05-bb6a-df7a1db5e1de)
 
-### OnTriggerEnter-script-needs-to-be-on-GO-with-box-collider NOT the parent object
+## OnTriggerEnter-script-needs-to-be-on-GO-with-box-collider NOT the parent object
 
 ![OnTriggerEnter-script-needs-to-be-on-GO-with-box-collider.png](OnTriggerEnter-script-needs-to-be-on-GO-with-box-collider.png "OnTriggerEnter-script-needs-to-be-on-GO-with-box-collider.png")
 
-### access the transform component of a game object
+## access the transform component of a game object
 
 by simply writing ```transform``` in a c# script that happens to be a component on a game object
 
@@ -224,7 +224,7 @@ I can modify the transform component of a game object in the c# code in the foll
 
 above code from https://www.youtube.com/watch?v=8pC3SE5PIzY
 
-### destroy the game object
+## destroy the game object
 
 ```
 Destroy(gameObject);
@@ -234,22 +234,22 @@ so if the class that this code is in, is added as a component it will kill the o
 
 this is why you shouldn't name GameObjects, gameObject. 
 
-### how to quickly tell that a game object is a prefab from the hierarchy window
+## how to quickly tell that a game object is a prefab from the hierarchy window
 
 ![how to quickly tell that a game object is a prefab from the hierarchy window](prefabs.png "how to quickly tell that a game object is a prefab from the hierarchy window")
 
-### set default animation
+## set default animation
 
 go into the animation controller and right click a state and set it as "Set as Layer Default State"
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/be05f01d-7430-471d-a16f-fcd0787de871)
 
 
-### record game objects being moved and turn them into animations with a recorder
+## record game objects being moved and turn them into animations with a recorder
 
 ![animation-recorder.png](animation-recorder.png "animation-recorder.png")
 
-### edit a keyframe of an animation already made
+## edit a keyframe of an animation already made
 
 make sure the recorder is on when editing a keyframe
 
@@ -257,40 +257,40 @@ you can select the exact keyframe by hitting the fast forward and rewind buttons
 
 ![edit-keyframe-animation](edit-keyframe-animation.png "edit-keyframe-animation")
 
-### how to detect two game objects touching
+## how to detect two game objects touching
 
 if both have colliders and one has a rigid body then we can detect the touch
 
 then you can detect the collision using OnTriggerEnter
 
-### turning-image-into-sprite.png
+## turning-image-into-sprite.png
 
 ![turning-image-into-sprite.png](turning-image-into-sprite.png "turning-image-into-sprite.png")
 
-### freeze-rotation.png
+## freeze-rotation.png
 
 ![freeze-rotation.png](freeze-rotation.png "freeze-rotation.png")
 
-### switch-dim-views-in-3d-space.png
+## switch-dim-views-in-3d-space.png
 
 ![switch-dim-views-in-3d-space.png](switch-dim-views-in-3d-space.png "switch-dim-views-in-3d-space.png")
 
-### using assets from unity asset store
+## using assets from unity asset store
 
 ![using assets from unity asset store](using-assets-from-unity-asset-store.png "using assets from unity asset store")
 
-### on windows hold left alt while hand tool is selected to rotate around
+## on windows hold left alt while hand tool is selected to rotate around
 
 ![on windows hold left alt](on-windows-hold-left-alt.png "on windows hold left alt")
 
-### track collisions without blocking them (trigger)
+## track collisions without blocking them (trigger)
 
 ![what is trigger true does](is_trigger_true.png "What is trigger true does")
 
-### apply changes to a prefab
+## apply changes to a prefab
 ![apply changes to prefab](apply_changes_to_prefab.gif "apply changes to prefab")
 
-### instantiate a prefab
+## instantiate a prefab
 
 the prefab has to be in a Resources folder, named exactly like that.
 
@@ -326,7 +326,7 @@ Specific example where you create 6 prefabs in front of the player but spaced ou
     }
 
 
-### rigidbody z axis motion
+## rigidbody z axis motion
 
 the game object has to have rigidbody compocomponent added to it from the unity ui
 
@@ -336,14 +336,14 @@ the game object has to have rigidbody compocomponent added to it from the unity 
         rb.velocity = Vector3.forward * 20; //Vector3.forward is the same as 0, 0, 1
     }
 
-### Input.GetAxisRaw("Horizontal"); 
+## Input.GetAxisRaw("Horizontal"); 
 
 track the sphere when it's continuously being pressed, returns a value. getAxis returns -1, 0 or 1 (good if you want to do all the smoothing of keyboard input yourself)
 
     // horizontalInput = Input.GetAxisRaw("Horizontal");
     // verticalInput = Input.GetAxisRaw("Vertical");
 
-### Input.GetKeyDown("d")
+## Input.GetKeyDown("d")
 
 does not track the sphere when it's continuously being pressed, returns true/false. Returns true during the frame the user starts pressing down the key identified by name.
 
@@ -352,25 +352,25 @@ Call this function from the Update function, since the state gets reset each fra
     horizontalInput = ((Input.GetKeyDown("d") ? 1 : 0) + (Input.GetKeyDown("a") ? -1 : 0));
     verticalInput = ((Input.GetKeyDown("w") ? 1 : 0) + (Input.GetKeyDown("s") ? -1 : 0));
 
-### Time.deltaTime;
+## Time.deltaTime;
 
 0.000001 time between each frame. this varies based on how fast your system is. slow system will be bigger deltaTime. fast system will be smaller deltaTime
 
-### horizontal movement for 3d obj
+## horizontal movement for 3d obj
 
     if (horizontalInput != 0)
     {
         rb.velocity = new Vector3(horizontalInput * 6, rb.velocity.y, rb.velocity.z);
     }
 
-### vertical movement for 3d obj
+## vertical movement for 3d obj
 
     if (verticalInput != 0)
     { //if up or down is pressed then enter this if
         rb.velocity = new Vector3(rb.velocity.x, verticalInput * 5, rb.velocity.z);
     }
 
-### detect swipes for mobile
+## detect swipes for mobile
 
 https://docs.unity3d.com/ScriptReference/TouchPhase.html
 
@@ -439,7 +439,7 @@ Canceled	The system cancelled tracking for the touch. at least one finger on the
             }
         }
     }
-### test on phone while coding
+## test on phone while coding
 
 install unity Remote on your android phone
 
