@@ -5,6 +5,10 @@
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/5fef34d2-9913-4545-8ce5-450bd2aaef7c)
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/c6e04f92-5535-43c3-95d5-b44d14951ecf)
 
+## setTimeout() but in unity
+
+Invoke method lets you call a function after a certain number of seconds
+
 ## static vs dynamic vs kinematic
 
 static means the game object isn't moving
