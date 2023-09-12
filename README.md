@@ -5,6 +5,16 @@
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/5fef34d2-9913-4545-8ce5-450bd2aaef7c)
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/c6e04f92-5535-43c3-95d5-b44d14951ecf)
 
+### static vs dynamic vs kinematic
+
+static means the game object isn't moving
+
+dynamic means it's moving and physics affects it
+
+kinematic means it's moving but physics won't affect it (ex: gravity, spring joint)
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/15f63cd5-89a4-4012-9d55-905cb3f4b4c2)
+
 ### spring joint
 
 spring joint lets us attach a 2d game object with a collider to an invisible pivot point. it will swing.
@@ -55,15 +65,6 @@ without doing this next step, the ball will stop when it hits the floor
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/97b05ff9-5722-4820-9c80-efdf8b3437f7)
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/21327792-727a-47d2-b870-c170b483323a)
-
-### test on different devices from the unity editor
-
-nothing beats testing on the phone though
-
-![image](https://github.com/katpavan/unity-notes/assets/45500874/1eabbbca-c155-4cfe-a736-06780eb61dbc)
-
-![image](https://github.com/katpavan/unity-notes/assets/45500874/34393ebd-7fc4-4c47-8639-850aacea2752)
-
 
 ### definitely use the input system package - detect touch from mobile device
 
@@ -119,6 +120,14 @@ ScreenToWorldPoint returns a Vector3 but can take in a Vector2
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/1137a683-44cc-46c1-9e67-602e844fe969)
 
+
+### test on different devices from the unity editor
+
+nothing beats testing on the phone though
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/1eabbbca-c155-4cfe-a736-06780eb61dbc)
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/34393ebd-7fc4-4c47-8639-850aacea2752)
 
 ### canvas (UI in Unity)
 
