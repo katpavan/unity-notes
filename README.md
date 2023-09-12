@@ -2,6 +2,11 @@
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/a2c4e335-5c2a-40ac-b885-7a28ebc63717)
 
+![image](https://github.com/katpavan/unity-notes/assets/45500874/42b20582-beaf-47d0-ba0d-5be51c3e8cb1)
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/ded2de22-be25-4c68-b3b5-7cb080ee071a)
+
+
 ## spawning prefabs from code
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/c5207310-980c-4591-b996-91bd7226c3a5)
