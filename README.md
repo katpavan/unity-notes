@@ -148,8 +148,6 @@ then launch the ball
 
 we know for sure the finger is on the screen here so that's where we can set isDragging to true
 
-![image](https://github.com/katpavan/unity-notes/assets/45500874/d3b9e1e0-65c9-4c88-ab11-be64a0407533)
-
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/c21574ea-0bc0-4347-badb-58f6ced43ee9)
 
 
