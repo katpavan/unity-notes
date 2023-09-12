@@ -11,7 +11,9 @@ Invoke method lets you call a function after a certain number of seconds
 
 but the method goes in quotes. it's not a reference to the function.
 
-wtf c#
+if you want to do a reference to the function do this:
+
+    Invoke(nameof(functionNameGoesHere), time);
 
 ## static vs dynamic vs kinematic
 
