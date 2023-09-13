@@ -9,6 +9,11 @@ this way when the resolution is changed, those two points are always in view
 make two empty game objects and position them left and right 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/ccd75ba9-d473-4440-a21d-2abbdac6acf7)
 
+cinemachine dropdown in unity -> choose Create Target Group Camera
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/a21b99ec-7cdf-4349-81c4-bcb323f4bb12)
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/a6bb09d5-1bf6-42d8-b6ad-bb5c59817712)
 
 ## camera zoom adjustment
 
