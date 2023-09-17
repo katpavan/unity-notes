@@ -1,8 +1,21 @@
-## hide a game object temporarily to make it easier to see things
+## hide a game object 
 
 uncheck this after clicking the game object
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/0d66673a-36e2-449c-bd46-610f6978079c)
+
+in the code
+
+do this 
+
+    public GameObject SuccessMenuPanel;
+
+drag the GameObject into the inspector input from the scene hierarchy
+
+then in the code you can set it hidden or visible like this:
+
+    SuccessMenuPanel.gameObject.SetActive(true);
+    SuccessMenuPanel.gameObject.SetActive(true);
 
 
 ## multi touch
