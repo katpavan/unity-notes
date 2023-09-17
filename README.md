@@ -1,3 +1,10 @@
+## hide a game object temporarily to make it easier to see things
+
+uncheck this after clicking the game object
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/0d66673a-36e2-449c-bd46-610f6978079c)
+
+
 ## multi touch
 
 if you put two fingers on the screen, make the ball go in between those two points
