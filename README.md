@@ -1,4 +1,4 @@
-## hide a game object 
+## hide a game object, use code to show it (make it visible) 
 
 uncheck this after clicking the game object
 
