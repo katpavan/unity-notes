@@ -14,7 +14,7 @@ if there are no touches on our screen do this:
 
 looping through touches and finding the center point
 
-![image](https://github.com/katpavan/unity-notes/assets/45500874/b66d48dd-4e37-4bcf-98f7-e0ab1ae03961)
+![image](https://github.com/katpavan/unity-notes/assets/45500874/47d2b103-4df0-4121-bcbb-a125736a0d7e)
 
 
 ## cinemachine for dynamic zoom
