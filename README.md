@@ -1,3 +1,22 @@
+## multi touch
+
+if you put two fingers on the screen, make the ball go in between those two points
+
+if you put three fingers on the screen, make the ball go in the center of those three points
+
+we need to use EnhancedTouchSupport
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/47733d9d-ca17-43dd-8f36-e964647f8806)
+
+if there are no touches on our screen do this:
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/ada1bafc-adc8-4421-b3b6-baa64af9e863)
+
+looping through touches and finding the center point
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/b66d48dd-4e37-4bcf-98f7-e0ab1ae03961)
+
+
 ## cinemachine for dynamic zoom
 
 you can allocate two positions to a camera and make sure that both positions are always in view of the camera
