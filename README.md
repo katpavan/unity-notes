@@ -1,3 +1,13 @@
+## optimize build size
+
+1. build the game
+2. go to console and hit the top right three dots
+3. click on "open editor logs"
+![image](https://github.com/katpavan/unity-notes/assets/45500874/d3ed1332-630d-4965-aa10-e69d62733df7)
+4. scroll down or search for "build report". you'll see a detailed list of all your assets ordered by their size.
+![image](https://github.com/katpavan/unity-notes/assets/45500874/6a138967-aa1f-44db-8543-b2e06198da16)
+
+
 ## hide a game object, use code to show it (make it visible) 
 
 uncheck this after clicking the game object
