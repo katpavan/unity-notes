@@ -1,5 +1,7 @@
 ## update how often FixedUpdate is called
 
+update the Fixed Timestep
+
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/c6f322e7-f26c-4a4f-ba00-8a6cd9c3e6d1)
 
 
