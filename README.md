@@ -1,6 +1,6 @@
 ## search for a component through the game object hierarchy 
 
-![image](https://github.com/katpavan/unity-notes/assets/45500874/7c028e1e-741c-4936-8af3-168dd6cb7a5a)
+![image](https://github.com/katpavan/unity-notes/assets/45500874/c32410da-4e99-4382-891e-30030a299811)
 
 ## update how often FixedUpdate is called
 
