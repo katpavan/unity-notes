@@ -1,3 +1,7 @@
+## search for a component through the game object hierarchy 
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/7c028e1e-741c-4936-8af3-168dd6cb7a5a)
+
 ## update how often FixedUpdate is called
 
 update the Fixed Timestep
