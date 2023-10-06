@@ -1,3 +1,7 @@
+## tap left or right side of screen to make move left or right
+
+https://pressstart.vip/tutorials/2018/01/29/7/unity-mobile-touch-controls.html
+
 ## mobile joystick
 
 https://pressstart.vip/tutorials/2018/06/22/39/mobile-joystick-in-unity.html
