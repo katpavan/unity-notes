@@ -1,3 +1,7 @@
+## when do you use Orthographic vs Perspective Camera. 
+
+ortho is 2d and perspective is 3d
+
 ## search for a component through the game object hierarchy 
 
 ![image](https://github.com/katpavan/unity-notes/assets/45500874/c32410da-4e99-4382-891e-30030a299811)
