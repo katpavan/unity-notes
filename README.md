@@ -1,3 +1,11 @@
+## mobile joystick
+
+https://pressstart.vip/tutorials/2018/06/22/39/mobile-joystick-in-unity.html
+
+## multiple touch inputs on mobile
+
+https://pressstart.vip/tutorials/2018/12/1/81/multiple-touch-inputs.html
+
 ## keep object in bounds
 
 https://pressstart.vip/tutorials/2018/06/28/41/keep-object-in-bounds.html
