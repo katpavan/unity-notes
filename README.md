@@ -1,3 +1,7 @@
+## keep object in bounds
+
+https://pressstart.vip/tutorials/2018/06/28/41/keep-object-in-bounds.html
+
 ## when do you use Orthographic vs Perspective Camera. 
 
 ortho is 2d and perspective is 3d
