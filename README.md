@@ -1,3 +1,7 @@
+## great websites!!!
+
+https://unity.huh.how/
+
 ## tap left or right side of screen to make move left or right
 
 https://pressstart.vip/tutorials/2018/01/29/7/unity-mobile-touch-controls.html
@@ -390,6 +394,10 @@ make sure the recorder is on when editing a keyframe
 you can select the exact keyframe by hitting the fast forward and rewind buttons
 
 ![edit-keyframe-animation](edit-keyframe-animation.png "edit-keyframe-animation")
+
+## collision matrix
+https://unity.huh.how/physics-messages/collision-matrix-2d
+![image](https://github.com/katpavan/unity-notes/assets/45500874/3ae3522a-2ddc-4db7-90cf-259a23b6cb0d)
 
 ## how to detect two game objects touching
 
