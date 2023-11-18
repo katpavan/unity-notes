@@ -18,6 +18,31 @@ https://pressstart.vip/tutorials/2018/12/1/81/multiple-touch-inputs.html
 
 https://pressstart.vip/tutorials/2018/06/28/41/keep-object-in-bounds.html
 
+## setting cursor to an image 
+
+you'll get this error when following garbage tutorials online
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+
+copy the sprites you want to use into a texture folder in the project section of unity
+
+then right click on them and change them to Cursor
+
+![image](https://github.com/katpavan/unity-notes/assets/45500874/e4f20797-1cef-4bea-9d26-a165b363d7a8)
+
+in the code
+
+    public Texture2D cursorArrowBCell;
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        // Action to perform on click
+        var go = eventData.pointerPress;
+
+        if (go.tag == "bcelltag"){
+            Cursor.SetCursor(cursorArrowBCell, Vector2.zero, CursorMode.Auto);
+        }
+    }
 ## when do you use Orthographic vs Perspective Camera. 
 
 ortho is 2d and perspective is 3d
